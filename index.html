@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Light Control</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="card">
+            <h1>Smart Light Control</h1>
+            <p>Professional Light Switch Interface</p>
+
+            <div class="bulb-container">
+
+                <div class="light-glow" id="glow"></div>
+
+                <div class="bulb" id="bulb">
+                    <div class="bulb-glass"></div>
+                    <div class="bulb-base"></div>
+                </div>
+
+            </div>
+
+            <div class="switch-wrapper">
+
+                <span>OFF</span>
+
+                <label class="switch">
+                    <input type="checkbox" id="toggleSwitch">
+                    <span class="slider"></span>
+                </label>
+
+                <span>ON</span>
+
+            </div>
+
+            <div class="status" id="status">
+                Light is OFF
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
